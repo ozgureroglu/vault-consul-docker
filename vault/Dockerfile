@@ -1,8 +1,8 @@
 # base image
-FROM alpine:3.14
+FROM alpine:3.16.0
 
 # set vault version
-ENV VAULT_VERSION 1.8.2
+ENV VAULT_VERSION 1.11.0
 
 # create a new directory
 RUN mkdir /vault
